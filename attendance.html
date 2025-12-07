@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Attendance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>📚 Student Dashboard</h2>
+  <a href="index.html">🏠 Home</a>
+  <a href="profile.html">👤 Profile</a>
+  <a href="attendance.html" class="active">📅 Attendance</a>
+  <a href="marks.html">📊 Marks</a>
+  <a href="timetable.html">🕒 Timetable</a>
+  <a href="notification.html">🔔 Notifications</a>
+  <a href="improvement.html">📈 Improve Grades</a>
+</div>
+
+
+<div class="content">
+  <h1>Attendance Report</h1>
+
+  <!-- Subject-wise Progress Bars -->
+  <table class="table">
+    <tr><th>Subject</th><th>Attendance</th></tr>
+    <tr>
+      <td>Java</td>
+      <td>
+        <div class="progress-bar" title="92% attendance">
+          <div class="progress" style="width: 92%;">92%</div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>RDBMS</td>
+      <td>
+        <div class="progress-bar" title="85% attendance">
+          <div class="progress" style="width: 85%;">85%</div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>Python</td>
+      <td>
+        <div class="progress-bar" title="80% attendance">
+          <div class="progress" style="width: 80%;">80%</div>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Monthly Attendance Calendar -->
+  <h2>Monthly Attendance</h2>
+  <table class="calendar">
+    <tr>
+      <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+    </tr>
+    <tr>
+      <td class="absent">1</td>
+      <td class="present">2</td>
+      <td class="present">3</td>
+      <td class="absent">4</td>
+      <td class="present">5</td>
+      <td class="present">6</td>
+      <td class="present">7</td>
+    </tr>
+    <tr>
+      <td class="present">8</td>
+      <td class="present">9</td>
+      <td class="absent">10</td>
+      <td class="present">11</td>
+      <td class="present">12</td>
+      <td class="absent">13</td>
+      <td class="present">14</td>
+    </tr>
+    <!-- Add remaining weeks -->
+  </table>
+</div>
+
+</body>
+</html>
+
+
+
